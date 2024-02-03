@@ -1,0 +1,27 @@
+/* Write your code here. */
+* {
+  font-family: roboto;
+}
+body {
+  margin: 0px;
+}
+
+.btn {
+  background-color: transparent;
+  border-style: none;
+  margin-right: 10px;
+  padding: 0;
+  opacity: 0.5;
+}
+.selected-image {
+  opacity: 1;
+}
+.thumbnail-image {
+  height: 60px;
+}
+
+@media screen and (min-width: 567px) {
+  .thumbnail-image {
+    height: 110px;
+  }
+}
